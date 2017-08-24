@@ -1,0 +1,30 @@
+[17:47:27] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 480
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:38)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:85)
+[17:49:50] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 480
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:40)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:88)
+[17:58:19] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 480
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:42)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:90)
+[17:58:36] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 480
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:43)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:91)
+[17:59:51] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 480
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:41)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:89)
+[18:01:41] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 480
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:41)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:89)

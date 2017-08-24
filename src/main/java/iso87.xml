@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fields>
+    <field id="0" length="4" type="NUM" name="MESSAGE TYPE INDICATOR"/>
+    <field id="1" length="16" type="CHAR" name="BITMAP"/>
+    <field id="2" length="19" type="LLNUM" name="PAN - PRIMARY ACCOUNT NUMBER"/>
+    <field id="3" length="6" type="NUM" name="PROCESSING CODE"/>
+    <field id="4" length="12" type="AMOUNT" name="AMOUNT, TRANSACTION"/>
+    <field id="5" length="12" type="AMOUNT" name="AMOUNT, SETTLEMENT"/>
+    <field id="6" length="12" type="AMOUNT" name="AMOUNT, CARDHOLDER BILLING"/>
+    <field id="7" length="10" type="NUM" name="TRANSMISSION DATE AND TIME"/>
+    <field id="8" length="8" type="NUM" name="AMOUNT, CARDHOLDER BILLING FEE"/>
+    <field id="9" length="8" type="NUM" name="CONVERSION RATE, SETTLEMENT"/>
+    <field id="10" length="8" type="NUM" name="CONVERSION RATE, CARDHOLDER BILLING"/>
+    <field id="11" length="6" type="NUM" name="SYSTEM TRACE AUDIT NUMBER"/>
+    <field id="12" length="6" type="NUM" name="TIME, LOCAL TRANSACTION"/>
+    <field id="13" length="4" type="NUM" name="DATE, LOCAL TRANSACTION"/>
+    <field id="14" length="4" type="NUM" name="DATE, EXPIRATION"/>
+    <field id="15" length="4" type="NUM" name="DATE, SETTLEMENT"/>
+    <field id="16" length="4" type="NUM" name="DATE, CONVERSION"/>
+    <field id="17" length="4" type="NUM" name="DATE, CAPTURE"/>
+    <field id="18" length="4" type="NUM" name="MERCHANTS TYPE"/>
+    <field id="19" length="3" type="NUM" name="ACQUIRING INSTITUTION COUNTRY CODE"/>
+    <field id="20" length="3" type="NUM" name="PAN EXTENDED COUNTRY CODE"/>
+    <field id="21" length="3" type="NUM" name="FORWARDING INSTITUTION COUNTRY CODE"/>
+    <field id="22" length="3" type="NUM" name="POINT OF SERVICE ENTRY MODE"/>
+    <field id="23" length="3" type="NUM" name="CARD SEQUENCE NUMBER"/>
+    <field id="24" length="3" type="NUM" name="NETWORK INTERNATIONAL IDENTIFIEER"/>
+    <field id="25" length="2" type="NUM" name="POINT OF SERVICE CONDITION CODE"/>
+    <field id="26" length="2" type="NUM" name="POINT OF SERVICE PIN CAPTURE CODE"/>
+    <field id="27" length="1" type="NUM" name="AUTHORIZATION IDENTIFICATION RESP LEN"/>
+    <field id="28" length="9" type="IFA_AMOUNT" name="AMOUNT, TRANSACTION FEE"/>
+    <field id="29" length="9" type="IFA_AMOUNT" name="AMOUNT, SETTLEMENT FEE"/>
+    <field id="30" length="9" type="IFA_AMOUNT" name="AMOUNT, TRANSACTION PROCESSING FEE"/>
+    <field id="31" length="9" type="IFA_AMOUNT" name="AMOUNT, SETTLEMENT PROCESSING FEE"/>
+    <field id="32" length="11" type="LLNUM" name="ACQUIRING INSTITUTION IDENT CODE"/>
+    <field id="33" length="11" type="LLNUM" name="FORWARDING INSTITUTION IDENT CODE"/>
+    <field id="34" length="28" type="LLCHAR" name="PAN EXTENDED"/>
+    <field id="35" length="37" type="LLNUM" name="TRACK 2 DATA"/>
+    <field id="36" length="104" type="LLLCHAR" name="TRACK 3 DATA"/>
+    <field id="37" length="12" type="CHAR" name="RETRIEVAL REFERENCE NUMBER"/>
+    <field id="38" length="6" type="CHAR" name="AUTHORIZATION IDENTIFICATION RESPONSE"/>
+    <field id="39" length="2" type="CHAR" name="RESPONSE CODE"/>
+    <field id="40" length="3" type="CHAR" name="SERVICE RESTRICTION CODE"/>
+    <field id="41" length="8" type="CHAR" name="CARD ACCEPTOR TERMINAL IDENTIFICACION"/>
+    <field id="42" length="15" type="CHAR" name="CARD ACCEPTOR IDENTIFICATION CODE"/>
+    <field id="43" length="40" type="CHAR" name="CARD ACCEPTOR NAME/LOCATION"/>
+    <field id="44" length="25" type="LLCHAR" name="ADITIONAL RESPONSE DATA"/>
+    <field id="45" length="76" type="LLCHAR" name="TRACK 1 DATA"/>
+    <field id="46" length="999" type="LLLCHAR" name="ADITIONAL DATA - ISO"/>
+    <field id="47" length="999" type="LLLCHAR" name="ADITIONAL DATA - NATIONAL"/>
+    <field id="48" length="999" type="LLLCHAR" name="ADITIONAL DATA - PRIVATE"/>
+    <field id="49" length="3" type="CHAR" name="CURRENCY CODE, TRANSACTION"/>
+    <field id="50" length="3" type="CHAR" name="CURRENCY CODE, SETTLEMENT"/>
+    <field id="51" length="3" type="CHAR" name="CURRENCY CODE, CARDHOLDER BILLING"/>
+    <field id="52" length="16" type="CHAR" name="PIN DATA"/>
+    <field id="53" length="16" type="NUM" name="SECURITY RELATED CONTROL INFORMATION"/>
+    <field id="54" length="120" type="LLLCHAR" name="ADDITIONAL AMOUNTS"/>
+    <field id="55" length="999" type="LLLCHAR" name="RESERVED ISO"/>
+    <field id="56" length="999" type="LLLCHAR" name="RESERVED ISO"/>
+    <field id="57" length="999" type="LLLCHAR" name="RESERVED NATIONAL"/>
+    <field id="58" length="999" type="LLLCHAR" name="RESERVED NATIONAL"/>
+    <field id="59" length="999" type="LLLCHAR" name="RESERVED NATIONAL"/>
+    <field id="60" length="999" type="LLLCHAR" name="RESERVED PRIVATE"/>
+    <field id="61" length="999" type="LLLCHAR" name="RESERVED PRIVATE"/>
+    <field id="62" length="999" type="LLLCHAR" name="RESERVED PRIVATE"/>
+    <field id="63" length="999" type="LLLCHAR" name="RESERVED PRIVATE"/>
+    <field id="64" length="8" type="CHAR" name="MESSAGE AUTHENTICATION CODE FIELD"/>
+    <field id="65" length="1" type="CHAR" name="BITMAP, EXTENDED"/>
+    <field id="66" length="1" type="NUM" name="SETTLEMENT CODE"/>
+    <field id="67" length="2" type="NUM" name="EXTENDED PAYMENT CODE"/>
+    <field id="68" length="3" type="NUM" name="RECEIVING INSTITUTION COUNTRY CODE"/>
+    <field id="69" length="3" type="NUM" name="SETTLEMENT INSTITUTION COUNTRY CODE"/>
+    <field id="70" length="3" type="NUM" name="NETWORK MANAGEMENT INFORMATION CODE"/>
+    <field id="71" length="4" type="NUM" name="MESSAGE NUMBER"/>
+    <field id="72" length="4" type="NUM" name="MESSAGE NUMBER LAST"/>
+    <field id="73" length="6" type="NUM" name="DATE ACTION"/>
+    <field id="74" length="10" type="NUM" name="CREDITS NUMBER"/>
+    <field id="75" length="10" type="NUM" name="CREDITS REVERSAL NUMBER"/>
+    <field id="76" length="10" type="NUM" name="DEBITS NUMBER"/>
+    <field id="77" length="10" type="NUM" name="DEBITS REVERSAL NUMBER"/>
+    <field id="78" length="10" type="NUM" name="TRANSFER NUMBER"/>
+    <field id="79" length="10" type="NUM" name="TRANSFER REVERSAL NUMBER"/>
+    <field id="80" length="10" type="NUM" name="INQUIRIES NUMBER"/>
+    <field id="81" length="10" type="NUM" name="AUTHORIZATION NUMBER"/>
+    <field id="82" length="12" type="NUM" name="CREDITS, PROCESSING FEE AMOUNT"/>
+    <field id="83" length="12" type="NUM" name="CREDITS, TRANSACTION FEE AMOUNT"/>
+    <field id="84" length="12" type="NUM" name="DEBITS, PROCESSING FEE AMOUNT"/>
+    <field id="85" length="12" type="NUM" name="DEBITS, TRANSACTION FEE AMOUNT"/>
+    <field id="86" length="16" type="NUM" name="CREDITS, AMOUNT"/>
+    <field id="87" length="16" type="NUM" name="CREDITS, REVERSAL AMOUNT"/>
+    <field id="88" length="16" type="NUM" name="DEBITS, AMOUNT"/>
+    <field id="89" length="16" type="NUM" name="DEBITS, REVERSAL AMOUNT"/>
+    <field id="90" length="42" type="NUM" name="ORIGINAL DATA ELEMENTS"/>
+    <field id="91" length="1" type="CHAR" name="FILE UPDATE CODE"/>
+    <field id="92" length="2" type="CHAR" name="FILE SECURITY CODE"/>
+    <field id="93" length="6" type="CHAR" name="RESPONSE INDICATOR"/>
+    <field id="94" length="7" type="CHAR" name="SERVICE INDICATOR"/>
+    <field id="95" length="42" type="CHAR" name="REPLACEMENT AMOUNTS"/>
+    <field id="96" length="16" type="CHAR" name="MESSAGE SECURITY CODE"/>
+    <field id="97" length="17" type="IFA_AMOUNT" name="AMOUNT, NET SETTLEMENT"/>
+    <field id="98" length="25" type="CHAR" name="PAYEE"/>
+    <field id="99" length="11" type="LLNUM" name="SETTLEMENT INSTITUTION IDENT CODE"/>
+    <field id="100" length="11" type="LLNUM" name="RECEIVING INSTITUTION IDENT CODE"/>
+    <field id="101" length="17" type="LLCHAR" name="FILE NAME"/>
+    <field id="102" length="28" type="LLCHAR" name="ACCOUNT IDENTIFICATION 1"/>
+    <field id="103" length="28" type="LLCHAR" name="ACCOUNT IDENTIFICATION 2"/>
+    <field id="104" length="100" type="LLLCHAR" name="TRANSACTION DESCRIPTION"/>
+    <field id="105" length="999" type="LLLCHAR" name="RESERVED ISO USE"/>
+    <field id="106" length="999" type="LLLCHAR" name="RESERVED ISO USE"/>
+    <field id="107" length="999" type="LLLCHAR" name="RESERVED ISO USE"/>
+    <field id="108" length="999" type="LLLCHAR" name="RESERVED ISO USE"/>
+    <field id="109" length="999" type="LLLCHAR" name="RESERVED ISO USE"/>
+    <field id="110" length="999" type="LLLCHAR" name="RESERVED ISO USE"/>
+    <field id="111" length="999" type="LLLCHAR" name="RESERVED ISO USE"/>
+    <field id="112" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="113" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="114" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="115" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="116" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="117" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="118" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="119" length="999" type="LLLCHAR" name="RESERVED NATIONAL USE"/>
+    <field id="120" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="121" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="122" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="123" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="124" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="125" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="126" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="127" length="999" type="LLLCHAR" name="RESERVED PRIVATE USE"/>
+    <field id="128" length="8" type="CHAR" name="MAC 2"/>
+</fields>

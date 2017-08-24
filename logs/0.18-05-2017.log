@@ -1,0 +1,80 @@
+[15:37:55] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 318
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:81)
+[15:37:55] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 334
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:81)
+[15:40:02] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 318
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[15:40:02] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 334
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[15:41:10] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 318
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[15:41:10] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 334
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:15:28] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 202
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:15:28] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 342
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:15:28] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 64
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:15:28] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 334
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:18:51] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 318
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:18:51] : BERTLV.parseTlv() : java.lang.StringIndexOutOfBoundsException: String index out of range: 334
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTlv(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:52:26] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 318
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[16:52:26] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 334
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:39)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:82)
+[18:08:48] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 318
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:38)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:81)
+[18:08:48] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 334
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:38)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:81)

@@ -1,0 +1,56 @@
+[17:09:12] : BERTLV.main() :   e9 |d21306112233445530000000000000000000000000d21300112233445530000000000000000000000000e14ddf100103d21300112233445530000000000000000000000000d21362112233445530000000000000000000000000d3027600df110102d40377800cd5106e7deb17d68338a56e7deb17d68338a5|
+
+[17:12:05] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:935)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:43)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:125)
+[17:12:05] : BERTLV.main() : 
+[17:12:28] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:933)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:38)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:125)
+[17:12:28] : BERTLV.main() : 
+[17:12:36] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:935)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:43)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:125)
+[17:12:36] : BERTLV.main() : 
+[17:12:44] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:935)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:43)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:122)
+[17:12:44] : BERTLV.main() : 
+[17:13:00] : BERTLV.parseTLV() : java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:935)
+	at java.lang.StringBuilder.substring(StringBuilder.java:76)
+	at org.kst.corelib.tlv.BERTLV.parseTLV(BERTLV.java:43)
+	at org.kst.corelib.tlv.BERTLV.main(BERTLV.java:122)
+[17:13:00] : BERTLV.main() : 
+[17:13:32] : BERTLV.main() : DF02 |FF00                                              |
+
+[17:13:45] : BERTLV.main() : DF02 | FF00                                               |
+
+[17:13:51] : BERTLV.main() :   e9 | d21306112233445530000000000000000000000000d21300112233445530000000000000000000000000e14ddf100103d21300112233445530000000000000000000000000d21362112233445530000000000000000000000000d3027600df110102d40377800cd5106e7deb17d68338a56e7deb17d68338a5 |
+
+[17:14:08] : BERTLV.main() :   d2 | 00112233445530000000000000000000000000             |
+  e1 | df100103d21300112233445530000000000000000000000000d21362112233445530000000000000000000000000d3027600df110102d40377800cd5106e7deb17d68338a56e7deb17d68338a5 |
+
+[17:14:27] : BERTLV.main() : 
+  d2 | 00112233445530000000000000000000000000             |
+  e1 | df100103d21300112233445530000000000000000000000000d21362112233445530000000000000000000000000d3027600df110102d40377800cd5106e7deb17d68338a56e7deb17d68338a5 |
+
+[17:14:53] : BERTLV.main() : 
+  d2 | 62112233445530000000000000000000000000             |
+  d3 | 7600                                               |
+  d4 | 77800c                                             |
+  d5 | 6e7deb17d68338a56e7deb17d68338a5                   |
+df10 | 03                                                 |
+df11 | 02                                                 |
+
+[17:32:55] : BERTLV.main() : 
+  e9 | d21306112233445530000000000000000000000000d21300112233445530000000000000000000000000e14ddf100103d21300112233445530000000000000000000000000d21362112233445530000000000000000000000000d3027600df110102d40377800cd5106e7deb17d68338a56e7deb17d68338a5 |
+
